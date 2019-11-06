@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/practice/practice",
+    "pages/index/index",
+    "pages/logs/logs",
+    "assets/about"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTitleText": "宠乐汇",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+
+  "tabBar": {
+    "selectedColor":"#ff5777",
+    "list": [{
+      "pagePath": "pages/practice/practice",
+      "text": "首页",
+      "iconPath": "assets/tabbar/shouye.png",
+      "selectedIconPath": "assets/tabbar/shouye1.png"
+    },
+    
+    {
+      "pagePath": "pages/index/index",
+      "text": "消息",
+      "iconPath": "assets/tabbar/taolunqu.png",
+      "selectedIconPath": "assets/tabbar/taolunqu1.png"
+    },
+
+    {
+      "pagePath": "pages/index/index",
+      "text": "我的",
+      "iconPath": "assets/tabbar/wodeguanzhu.png",
+      "selectedIconPath": "assets/tabbar/wodeguanzhu1.png"
+    },
+
+    {
+      "pagePath": "pages/index/index",
+      "text": "社区",
+      "iconPath": "assets/tabbar/faxian.png",
+      "selectedIconPath": "assets/tabbar/faxian1.png"
+    }
+    ]
+  }
+}
