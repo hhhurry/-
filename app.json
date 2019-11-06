@@ -1,9 +1,9 @@
 {
   "pages": [
-    "pages/practice/practice",
-    "pages/index/index",
-    "pages/logs/logs",
-    "assets/about"
+    "pages/mainpage/mainpage",
+    "pages/message/message",
+    "pages/mine/mine",
+    "pages/neiborhood/neiborhood"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -12,36 +12,35 @@
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-
   "tabBar": {
-    "selectedColor":"#ff5777",
-    "list": [{
-      "pagePath": "pages/practice/practice",
-      "text": "首页",
-      "iconPath": "assets/tabbar/shouye.png",
-      "selectedIconPath": "assets/tabbar/shouye1.png"
-    },
-    
-    {
-      "pagePath": "pages/index/index",
-      "text": "消息",
-      "iconPath": "assets/tabbar/taolunqu.png",
-      "selectedIconPath": "assets/tabbar/taolunqu1.png"
-    },
+    "selectedColor": "#ff5777",
+    "list": [
+      {
+        "pagePath": "pages/mainpage/mainpage",
+        "text": "首页",
+        "iconPath": "assets/tabbar/shouye.png",
+        "selectedIconPath": "assets/tabbar/shouye1.png"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "assets/tabbar/taolunqu.png",
+        "selectedIconPath": "assets/tabbar/taolunqu1.png"
+      },
+      {
+        "pagePath": "pages/neiborhood/neiborhood",
+        "text": "社区",
+        "iconPath": "assets/tabbar/faxian.png",
+        "selectedIconPath": "assets/tabbar/faxian1.png"
+      },
 
-    {
-      "pagePath": "pages/index/index",
-      "text": "我的",
-      "iconPath": "assets/tabbar/wodeguanzhu.png",
-      "selectedIconPath": "assets/tabbar/wodeguanzhu1.png"
-    },
 
-    {
-      "pagePath": "pages/index/index",
-      "text": "社区",
-      "iconPath": "assets/tabbar/faxian.png",
-      "selectedIconPath": "assets/tabbar/faxian1.png"
-    }
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "assets/tabbar/wodeguanzhu.png",
+        "selectedIconPath": "assets/tabbar/wodeguanzhu1.png"
+      }
     ]
   }
 }

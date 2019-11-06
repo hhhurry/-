@@ -1,4 +1,4 @@
-// assets/about.js
+// pages/mainpage/mainpage.js
 Page({
 
   /**

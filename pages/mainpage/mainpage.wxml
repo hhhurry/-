@@ -1,0 +1,5 @@
+<!--pages/mainpage/mainpage.wxml-->
+<view>
+  <input type="text" placeholder="input here"/>
+</view>
+<image src="/assets/picture/shouye2.jpg"/>
